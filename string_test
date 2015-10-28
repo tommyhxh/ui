@@ -1,0 +1,22 @@
+<html>
+<head>
+<script type="text/javascript">
+function test()
+{
+var js = '{"a":"aa","b":{"s":"ss","s1":"sss"}}';
+//var js = '{"a":"huangxiaojian","age":"23"}';
+var js_j = JSON.parse(js);
+document.write(code.value);
+document.write(js_j.b.s);
+document.write(js_j.b.s1);
+}
+</script>
+</head>
+
+
+<body>
+<input id="code" type="text">
+<input id="dj" type="button" value="summit" onclick="test()" >
+</body>
+
+</html>
